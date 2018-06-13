@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="work">
+        <Question>Do you have a work to do? (yes/no)</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="adventure">
+        <Question>Are you waiting for an adventure? (yes/no)</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="enthusiasm">
+        <Question>Choose what best describes your well-being: tired, lethargic, weak, pessimistic, unwilling, lively, enthusiastic, strong, vigorous, spirited</Question>
+        <Answer>
+            <Selection value="true">
+                <MultipleValue value="lively, enthusiastic, strong, vigorous, spirited"/>
+            </Selection>
+            <Selection value="false">
+                <MultipleValue value="tired, lethargic, weak, pessimistic, unwilling"/>
+            </Selection>
+        </Answer>
+    </Rule>
+</Rules>

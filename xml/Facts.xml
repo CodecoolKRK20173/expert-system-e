@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Facts>
+    <Fact id="work">
+        <Description value="Today, you have do what you like the most - you work! You feel good and you can use it. Nothing will bother you."/>
+        <Evals>
+            <Eval id="work">true</Eval>
+            <Eval id="adventure">false</Eval>
+            <Eval id="enthusiasm">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="frends">
+        <Description value="You can relax today and do what you know and like best. Adventures are not good for you. Meet friends, visit your mother, eat your favorite dish..."/>
+        <Evals>
+            <Eval id="work">false</Eval>
+            <Eval id="adventure">false</Eval>
+            <Eval id="enthusiasm">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="sleep">
+        <Description value="You have a lot of free time, but you better go to sleep"/>
+        <Evals>
+            <Eval id="work">false</Eval>
+            <Eval id="adventure">false</Eval>
+            <Eval id="enthusiasm">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="work and rest">
+        <Description value="It will be better for you if you stay at home and work. Remember, however, to rest from time to time, because it affects your well-being."/>
+        <Evals>
+            <Eval id="work">true</Eval>
+            <Eval id="adventure">false</Eval>
+            <Eval id="enthusiasm">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="go outside">
+        <Description value="The longer you sit in a place, the worse you feel. Go outside, the adventure is waiting for you!"/>
+        <Evals>
+            <Eval id="work">false</Eval>
+            <Eval id="adventure">true</Eval>
+            <Eval id="enthusiasm">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="work adventure">
+        <Description value="You must work today. I know you do not want to and you would rather do something else, but you have no choice. Try to imagine that your work is an adventure, maybe it will help ..."/>
+        <Evals>
+            <Eval id="work">true</Eval>
+            <Eval id="adventure">true</Eval>
+            <Eval id="enthusiasm">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="adventure">
+        <Description value="Today you have a day off and you are eager for adventure! Pack the backpack and leave the house. Do not plan anything, follow the course of events..."/>
+        <Evals>
+            <Eval id="work">false</Eval>
+            <Eval id="adventure">true</Eval>
+            <Eval id="enthusiasm">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="planning">
+        <Description value="You have to do a lot of work. But do not worry, you will do it quickly. You can start planning what you will do next. The adventure is waiting!"/>
+        <Evals>
+            <Eval id="work">true</Eval>
+            <Eval id="adventure">true</Eval>
+            <Eval id="enthusiasm">true</Eval>
+        </Evals>
+    </Fact>
+
+</Facts>

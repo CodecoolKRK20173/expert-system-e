@@ -1,0 +1,16 @@
+src/main/java/com/codecool/rule/answer/value/Value.java
+src/main/java/com/codecool/rule/answer/value/SingleValue.java
+src/main/java/com/codecool/rule/answer/value/MultipleValue.java
+src/main/java/com/codecool/rule/answer/Answer.java
+src/main/java/com/codecool/rule/Question.java
+src/main/java/com/codecool/rule/RuleRepository.java
+src/main/java/com/codecool/rule/QuestionIterator.java
+src/main/java/com/codecool/rule/RuleParser.java
+src/main/java/com/codecool/Main.java
+src/main/java/com/codecool/View.java
+src/main/java/com/codecool/ESProvider.java
+src/main/java/com/codecool/fact/FactRepository.java
+src/main/java/com/codecool/fact/Fact.java
+src/main/java/com/codecool/fact/FactParser.java
+src/main/java/com/codecool/fact/FactIterator.java
+src/main/java/com/codecool/XMLparser.java
